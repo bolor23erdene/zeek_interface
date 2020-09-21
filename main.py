@@ -40,7 +40,7 @@ def specs_logs(all_protocol_types):
 	#print(count)
 	return dic_protocol, count
 
-def free_text_func(dic_protocol):
+def free_text_func(dic_protocol, free_text):
 	""" Returns all log files with entries that only include specified free_text 
 	Attributes
 	----------
@@ -53,7 +53,7 @@ def free_text_func(dic_protocol):
 		free_text_df = pd.DataFrame()
 		string_fields = list(df.select_dtypes(include='object').columns)
 		for field in string_fields:
-			sub_df = df[df[field].str.contains('google.com', na=False)]
+			sub_df = df[df[field].str.contains(free_text, na=False)]
 			if free_text_df.empty:
 				free_text_df = sub_df
 			else:
@@ -140,7 +140,7 @@ if __name__ == "__main__":
 
 	#print("Second Step\n\n\n", count, dic_protocol)
 
-	free_text_dic = free_text_func(dic_protocol)
+	free_text_dic = free_text_func(dic_protocol, free_text)
 
 	#print("Third Step\n\n\n", free_text_dic)
 
