@@ -1,0 +1,28 @@
+conn.log	TCP/UDP/ICMP connections	Conn::Info
+dce_rpc.log	Distributed Computing Environment/RPC	DCE_RPC::Info
+dhcp.log	DHCP leases	DHCP::Info
+dnp3.log	DNP3 requests and replies	DNP3::Info
+dns.log	DNS activity	DNS::Info
+ftp.log	FTP activity	FTP::Info
+http.log	HTTP requests and replies	HTTP::Info
+irc.log	IRC commands and responses	IRC::Info
+kerberos.log	Kerberos	KRB::Info
+modbus.log	Modbus commands and responses	Modbus::Info
+modbus_register_change.log	Tracks changes to Modbus holding registers	Modbus::MemmapInfo
+mysql.log	MySQL	MySQL::Info
+ntlm.log	NT LAN Manager (NTLM)	NTLM::Info
+ntp.log	Network Time Protocol	NTP::Info
+radius.log	RADIUS authentication attempts	RADIUS::Info
+rdp.log	RDP	RDP::Info
+rfb.log	Remote Framebuffer (RFB)	RFB::Info
+sip.log	SIP	SIP::Info
+smb_cmd.log	SMB commands	SMB::CmdInfo
+smb_files.log	SMB files	SMB::FileInfo
+smb_mapping.log	SMB trees	SMB::TreeInfo
+smtp.log	SMTP transactions	SMTP::Info
+snmp.log	SNMP messages	SNMP::Info
+socks.log	SOCKS proxy requests	SOCKS::Info
+ssh.log	SSH connections	SSH::Info
+ssl.log	SSL/TLS handshake info	SSL::Info
+syslog.log	Syslog messages	Syslog::Info
+tunnel.log	Tunneling protocol events	Tunnel::Info

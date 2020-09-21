@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dpd
+#open	2017-10-05-10-51-35
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	analyzer	failure_reason
+#types	time	string	addr	port	addr	port	enum	string	string
+10048.650456	CWSAf42NzuPlX7gnA4	10.0.2.15	50958	34.203.227.58	80	tcp	HTTP	not a http request line
+10048.652458	CYbD4D3AaWRd0WoyJf	10.0.2.15	50957	34.203.227.58	80	tcp	HTTP	not a http request line
+10174.734525	CXVcwg1HkMnX3i1AKj	10.0.2.15	51061	54.209.87.14	80	tcp	HTTP	not a http request line
+10174.750016	C8mALg1UqS9VfxYu57	10.0.2.15	51027	54.209.87.14	80	tcp	HTTP	not a http request line
+#close	2017-10-05-10-51-41

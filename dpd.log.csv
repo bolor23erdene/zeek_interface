@@ -1,0 +1,5 @@
+"ts","uid","id_orig_h","id_orig_p","id_resp_h","id_resp_p","proto","analyzer","failure_reason"
+"10048.650456","CWSAf42NzuPlX7gnA4","10.0.2.15","50958","34.203.227.58","80","tcp","HTTP"
+"10048.652458","CYbD4D3AaWRd0WoyJf","10.0.2.15","50957","34.203.227.58","80","tcp","HTTP"
+"10174.734525","CXVcwg1HkMnX3i1AKj","10.0.2.15","51061","54.209.87.14","80","tcp","HTTP"
+"10174.750016","C8mALg1UqS9VfxYu57","10.0.2.15","51027","54.209.87.14","80","tcp","HTTP"
